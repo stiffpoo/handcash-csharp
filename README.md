@@ -40,6 +40,12 @@ public class HandleObject
     public string PublicKey { get; set; }
 }
 ```
+## Special Thanks
+
+To the [HandCash](http://handcash.io/) devs for building a clean, quick and feature rich Bitcoin Cash Wallet with simple, user-friendly $handles !
+
+To [zquestz](https://github.com/zquestz) for the inspiration to write and publish my first library and respository!
+May be small and simple but you know what they say, "you'll always remember your first" :)
 
 ## Contributing
 
@@ -48,13 +54,6 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/stiffp
 ## License
 
 This library is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-### Special Thanks
-
-To the [HandCash](http://handcash.io/) devs for building a clean, quick and feature rich Bitcoin Cash Wallet with simple, user-friendly $handles !
-
-To [zquestz](https://github.com/zquestz) for the inspiration to write and publish my first library and respository!
-May be small and simple but you know what they say, "you'll always remember your first" :)
 
 [License-URL]: http://opensource.org/licenses/MIT
 [License-Image]: https://img.shields.io/npm/l/express.svg
