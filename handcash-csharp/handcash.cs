@@ -1,7 +1,7 @@
 ﻿using RestSharp;
 using System;
 
-namespace Handcash
+namespace HandCash
 {
     public static class HandCash
     {
