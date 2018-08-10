@@ -5,7 +5,7 @@ C# Library for HandCash's API @ http://handcash.io/api-docs
 
 ## Installation
 
-With NuGet :
+#### With NuGet :
 >**Install-Package handcash-csharp** 
 
 See the [NuGet Package](https://www.nuget.org/packages/handcash-csharp/) for more information.
@@ -15,21 +15,21 @@ Utilising [RestSharp](https://github.com/restsharp/RestSharp) | [Nuget Package](
 
 ## Usage
 
-using statement
+#### using statement
 ```c#
 using HandCash;
 ```
-GetReceivingAddress from $handle by specifying Handcash.Network
+#### GetReceivingAddress from $handle by specifying Handcash.Network
 ```c#
 string receivingAddress = HandCash.GetReceivingAddress("rjseibane", HandCash.Network.MainNet);
 Console.WriteLine(receivingAddress);
 ```
-GetPublicKey from $handle by specifying Handcash.Network
+#### GetPublicKey from $handle by specifying Handcash.Network
 ```c#
 string publicKey = HandCash.GetPublicKey("rjseibane", HandCash.Network.MainNet);
 Console.WriteLine(publicKey);
 ```
-GetObject returns HandleObject Class
+#### GetObject returns HandleObject Class
 ```c#
 var handleObject = HandCash.GetObject("rjseibane", HandCash.Network.MainNet);
 ```
