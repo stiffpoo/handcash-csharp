@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Product />
+    <Authors>stiffpoo</Authors>
+    <Company></Company>
+    <Description>HandCash API Implementation for C#</Description>
+    <PackageProjectUrl>https://github.com/stiffpoo/handcash-csharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/stiffpoo/handcash-csharp</RepositoryUrl>
+    <PackageId>handcash-csharp</PackageId>
+    <Version>1.0.0</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseUrl>https://github.com/stiffpoo/handcash-csharp/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageReleaseNotes>Version 1.0.0
+- 3 Helper Methods available to access the HandCash $handle API
+-- GetReceivingAddress returns a base58 address as a string
+-- GetPublicKey returns a public key as a string
+-- GetObject returns a Handle Class, with ReceivingAddress &amp; PublicKey accessible</PackageReleaseNotes>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+    <Win32Resource></Win32Resource>
+    <PackageTags>handcash hand cash</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RestSharp" Version="106.3.1" />
+  </ItemGroup>
+
+</Project>
