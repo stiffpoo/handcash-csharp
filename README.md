@@ -1,4 +1,4 @@
-[![License][License-Image]][License-URL] [![NuGet](https://img.shields.io/nuget/v/NBitcoin.svg)](https://www.nuget.org/packages/NBitcoin)
+[![License][License-Image]][License-URL] [![NuGet][NuGet-Image]][NuGet-Link]
 # handcash-csharp
 
 C# Library for HandCash's API @ http://handcash.io/api-docs
@@ -56,4 +56,6 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/stiffp
 This library is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
 [License-URL]: http://opensource.org/licenses/MIT
-[License-Image]: https://img.shields.io/npm/l/express.svg
+[License-Image]: https://img.shields.io/github/license/mashape/apistatus.svg
+[NuGet-Image]: https://img.shields.io/badge/nuget-v4.7.0-blue.svg
+[NuGet-Link]: https://www.nuget.org/packages/handcash-csharp/
