@@ -9,16 +9,16 @@
     <PackageProjectUrl>https://github.com/stiffpoo/handcash-csharp</PackageProjectUrl>
     <RepositoryUrl>https://github.com/stiffpoo/handcash-csharp</RepositoryUrl>
     <PackageId>handcash-csharp</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <AssemblyVersion>1.0.1.0</AssemblyVersion>
-    <FileVersion>1.0.1.0</FileVersion>
+    <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <FileVersion>1.0.2.0</FileVersion>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseUrl>https://github.com/stiffpoo/handcash-csharp/blob/master/LICENSE</PackageLicenseUrl>
-    <PackageReleaseNotes>Add new logo with '#' to differentiate</PackageReleaseNotes>
+    <PackageReleaseNotes>Removed tags just cause. Made everything more accessible?</PackageReleaseNotes>
     <ApplicationIcon>logo-csharp.ico</ApplicationIcon>
     <Win32Resource></Win32Resource>
-    <PackageTags>handcash hand cash handle $handle bitcoin cash bch</PackageTags>
+    <PackageTags></PackageTags>
     <PackageIconUrl>https://github.com/stiffpoo/handcash-csharp/raw/master/handcash-csharp/img/logo-csharp.png</PackageIconUrl>
     <NeutralLanguage>en-AU</NeutralLanguage>
   </PropertyGroup>

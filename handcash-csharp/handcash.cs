@@ -3,7 +3,7 @@ using System;
 
 namespace Handcash
 {
-    public class Handcash
+    public static class HandCash
     {
         public class HandleObject // Returned base model from the call to the HandCash API
         {
