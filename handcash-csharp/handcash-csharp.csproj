@@ -13,7 +13,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
-    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseUrl>https://github.com/stiffpoo/handcash-csharp/blob/master/LICENSE</PackageLicenseUrl>
     <PackageReleaseNotes>Version 1.0.0
 - 3 Helper Methods available to access the HandCash $handle API
@@ -22,7 +22,8 @@
 -- GetObject returns a Handle Class, with ReceivingAddress &amp; PublicKey accessible</PackageReleaseNotes>
     <ApplicationIcon>logo.ico</ApplicationIcon>
     <Win32Resource></Win32Resource>
-    <PackageTags>handcash hand cash</PackageTags>
+    <PackageTags>handcash hand cash handle $handle bitcoin cash bch</PackageTags>
+    <PackageIconUrl>https://github.com/stiffpoo/handcash-csharp/raw/master/handcash-csharp/img/logo.png</PackageIconUrl>
   </PropertyGroup>
 
   <ItemGroup>
