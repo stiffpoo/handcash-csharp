@@ -5,7 +5,7 @@ C# Library for HandCash's API @ http://handcash.io/api-docs
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/stiffpoo/handcash-scharp.
+Bug reports and pull requests are welcome on GitHub at https://github.com/stiffpoo/handcash-csharp.
 
 ## License
 
