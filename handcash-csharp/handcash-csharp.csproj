@@ -9,21 +9,18 @@
     <PackageProjectUrl>https://github.com/stiffpoo/handcash-csharp</PackageProjectUrl>
     <RepositoryUrl>https://github.com/stiffpoo/handcash-csharp</RepositoryUrl>
     <PackageId>handcash-csharp</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseUrl>https://github.com/stiffpoo/handcash-csharp/blob/master/LICENSE</PackageLicenseUrl>
-    <PackageReleaseNotes>Version 1.0.0
-- 3 Helper Methods available to access the HandCash $handle API
--- GetReceivingAddress returns a base58 address as a string
--- GetPublicKey returns a public key as a string
--- GetObject returns a Handle Class, with ReceivingAddress &amp; PublicKey accessible</PackageReleaseNotes>
-    <ApplicationIcon>logo.ico</ApplicationIcon>
+    <PackageReleaseNotes>Add new logo with '#' to differentiate</PackageReleaseNotes>
+    <ApplicationIcon>logo-csharp.ico</ApplicationIcon>
     <Win32Resource></Win32Resource>
     <PackageTags>handcash hand cash handle $handle bitcoin cash bch</PackageTags>
-    <PackageIconUrl>https://github.com/stiffpoo/handcash-csharp/raw/master/handcash-csharp/img/logo.png</PackageIconUrl>
+    <PackageIconUrl>https://github.com/stiffpoo/handcash-csharp/raw/master/handcash-csharp/img/logo-csharp.png</PackageIconUrl>
+    <NeutralLanguage>en-AU</NeutralLanguage>
   </PropertyGroup>
 
   <ItemGroup>
