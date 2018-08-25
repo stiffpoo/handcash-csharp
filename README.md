@@ -19,24 +19,33 @@ Utilising [RestSharp](https://github.com/restsharp/RestSharp) | [Nuget Package](
 ```c#
 using HandCash;
 ```
-#### GetReceivingAddress from $handle by specifying Handcash.Network
+#### Retrieve Address from $handle by specifying Handle.Network
 ```c#
-string receivingAddress = HandCash.GetReceivingAddress("rjseibane", HandCash.Network.MainNet);
-Console.WriteLine(receivingAddress);
+string cashAddr = Handle.GetCashAddr("rjseibane", Handle.Network.MainNet);
+Console.WriteLine(cashAddr);
+
+string legacyAddr = Handle.GetLegacyAddr("rjseibane", Handle.Network.MainNet);
+Console.WriteLine(legacyAddr);
 ```
-#### GetPublicKey from $handle by specifying Handcash.Network
+#### Retrieve Public Key from $handle by specifying Handle.Network
 ```c#
-string publicKey = HandCash.GetPublicKey("rjseibane", HandCash.Network.MainNet);
+string publicKey = Handle.GetPublicKey("rjseibane", Handle.Network.MainNet);
 Console.WriteLine(publicKey);
 ```
-#### GetObject returns HandleObject Class
+#### Async Support
 ```c#
-var handleObject = HandCash.GetObject("rjseibane", HandCash.Network.MainNet);
+string cashAddr = await Handle.GetCashAddrAsync("rjseibane", Handle.Network.MainNet);
+Console.WriteLine(cashAddr);
+```
+#### Get returns HandleObject Class
+```c#
+var handleObject = Handle.Get("rjseibane", Handle.Network.MainNet);
 ```
 ```c#
 public class HandleObject
 {
     public string ReceivingAddress { get; set; }
+    public string CashAddr { get; set; }
     public string PublicKey { get; set; }
 }
 ```
@@ -45,7 +54,7 @@ public class HandleObject
 To the [HandCash](http://handcash.io/) devs for building a clean, quick and feature rich Bitcoin Cash Wallet with simple, user-friendly $handles !
 
 To [zquestz](https://github.com/zquestz) for the inspiration to write and publish my first library and respository!
-May be small and simple but you know what they say, "you'll always remember your first" :)
+May be small and simple but you gotta start somewhere :)
 
 ## Contributing
 
