@@ -19,39 +19,35 @@ Utilising [RestSharp](https://github.com/restsharp/RestSharp) | [Nuget Package](
 ```c#
 using HandCash;
 ```
-#### Retrieve Address from $handle by specifying Handle.Network
+#### Retrieve Address from $handle by specifying Network
 ```c#
-string cashAddr = Handle.GetCashAddr("rjseibane", Handle.Network.MainNet);
-Console.WriteLine(cashAddr);
-
-string legacyAddr = Handle.GetLegacyAddr("rjseibane", Handle.Network.MainNet);
-Console.WriteLine(legacyAddr);
+string address = Handle.GetAddress("rjseibane", Network.MainNet);
+Console.WriteLine(address);
 ```
-#### Retrieve Public Key from $handle by specifying Handle.Network
+#### Retrieve Public Key from $handle by specifying Network
 ```c#
-string publicKey = Handle.GetPublicKey("rjseibane", Handle.Network.MainNet);
+string publicKey = Handle.GetPublicKey("rjseibane", Network.MainNet);
 Console.WriteLine(publicKey);
 ```
 #### Async Support
 ```c#
-string cashAddr = await Handle.GetCashAddrAsync("rjseibane", Handle.Network.MainNet);
-Console.WriteLine(cashAddr);
+string address = await Handle.GetAddressAsync("rjseibane", Network.MainNet);
+Console.WriteLine(address);
 ```
-#### Get returns HandleObject Class
+#### Get returns HandleObj Class
 ```c#
-var handleObject = Handle.Get("rjseibane", Handle.Network.MainNet);
+var handleObj = Handle.Get("rjseibane", Network.MainNet);
 ```
 ```c#
-public class HandleObject
+public class HandleObj
 {
     public string ReceivingAddress { get; set; }
-    public string CashAddr { get; set; }
     public string PublicKey { get; set; }
 }
 ```
 ## Special Thanks
 
-To the [HandCash](http://handcash.io/) devs for building a clean, quick and feature rich Bitcoin Cash Wallet with simple, user-friendly $handles !
+To the [HandCash](https://handcash.io/) devs for building a clean, quick and feature rich Wallet with simple, user-friendly $handles !
 
 To [zquestz](https://github.com/zquestz) for the inspiration to write and publish my first library and respository!
 May be small and simple but you gotta start somewhere :)
